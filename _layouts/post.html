@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="utf-8" />
 		<title>CloudCoder Blog - {{page.title}}</title>
-		<link rel="stylesheet" href="/css/cloudcoder.css" />
+		<link rel="stylesheet" href="http://cloudcoder.org/css/cloudcoder.css" />
 	</head>
 
 	<body>
@@ -23,7 +23,7 @@
 		<div id="content">
 		<div id="pageTitle"><div id="pageTitle-inner">{{page.title}}</div></div>
 
-		<p>Posted by <a href="{{page.authorurl}}">{{page.author}}</a> on {{page.date| date: "%m-%d-%Y" }}</p>
+		<div class="tagline">Posted by <a href="{{page.authorurl}}">{{page.author}}</a> on {{page.date| date: "%B %d, %Y" }}</div>
 
 		{{ content }}
 
