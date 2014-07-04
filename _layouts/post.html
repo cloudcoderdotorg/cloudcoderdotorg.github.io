@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>CloudCoder Blog - {{page.title}}</title>
+		<link rel="stylesheet" href="/css/cloudcoder.css" />
+	</head>
+
+	<body>
+		<div id="topnav"><div id="topnav_inner">
+			<a href="http://cloudcoder.org/">Home</a>
+			<a href="http://cloudcoderdotorg.github.io/">Blog</a>
+			<a href="https://github.com/cloudcoderdotorg/CloudCoder/wiki">Wiki</a>
+			<a href="https://github.com/cloudcoderdotorg/CloudCoder/wiki/Install">Install</a>
+			<a href="https://github.com/cloudcoderdotorg/CloudCoder/wiki/Screenshots">Screenshots</a>
+			<a href="http://cloudcoder.org/demo.html">Demo&nbsp;Server</a>
+			<a href="https://cloudcoder.org/repo">Exercise&nbsp;Repository</a>
+			<a href="http://cloudcoder.org/opensource.html">Open&nbsp;Source</a>
+			<a href="http://cloudcoder.org/people.html">People</a>
+<img style="position: relative; top: 8px;" alt="CloudCoder logo" src="/img/CloudCoderLogo-tiny.png" />
+		</div></div>
+
+		<div id="content">
+		<div id="pageTitle"><div id="pageTitle-inner">{{page.title}}</div></div>
+
+		<p>Posted by <a href="{{page.authorurl}}">{{page.author}}</a> on {{page.date| date: "%m-%d-%Y" }}</p>
+
+		{{ content }}
+
+		</div>
+
+		<div id="footer">
+			&copy; 2012-2014 CloudCoder team
+			<a class="cc-img" rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/3.0/80x15.png" /></a>
+		</div>
+
+		<div id="comments-container"><div id="disqus_thread"></div>
+			<script type="text/javascript">
+				/* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+				var disqus_shortname = 'cloudcoderdotorg'; // Required - Replace example with your forum shortname
+			
+				/* * * DON'T EDIT BELOW THIS LINE * * */
+				(function() {
+					var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+					dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+					(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+				})();
+			</script>
+			<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+			<a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+		</div></div>
+
+		<a href="https://github.com/cloudcoderdotorg/CloudCoder"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/38ef81f8aca64bb9a64448d0d70f1308ef5341ab/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f6461726b626c75655f3132313632312e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png"></a>
+	</body>
+
+</html>
