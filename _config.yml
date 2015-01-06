@@ -3,8 +3,6 @@ description: ""
 
 url: "http://cloudcoderdotorg.github.io"
 
-paginate: 10
-
 markdown: rdiscount
 rdiscount:
   extensions: [smart]
