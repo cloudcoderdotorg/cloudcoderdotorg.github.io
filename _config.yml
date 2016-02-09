@@ -7,4 +7,4 @@ markdown: rdiscount
 rdiscount:
   extensions: [smart]
 
-pygments: true
+highlighter: pygments
